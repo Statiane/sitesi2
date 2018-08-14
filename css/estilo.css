@@ -1,0 +1,26 @@
+body{
+background-color: #333;
+
+}
+h1{
+
+  color: #fff;
+}
+
+.txt-azul{
+
+
+  color: #4242f4;
+  font-size: 18px;
+  font-weight: bold; /*negrito*/
+}
+
+.dir{
+
+  float: rigtht;
+  margin: 15;
+}
+.clear{
+
+  clear: both;
+}
