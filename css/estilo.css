@@ -1,25 +1,26 @@
-body{
-background-color: #333;
-
+table,td{
+border: 5px solid black;
+border-collapse: collapse;
+text-align: center;
 }
-h1{
+html,body{
 
-  color: #fff;
+    padding: 10px;
 }
-
-.txt-azul{
-
-  color: #4242f4;
-  font-size: 18px;
-  font-weight: bold; /*negrito*/
+table tr:nth-child(odd){
+    background-color:#ccc;
 }
 
-.dir{
-
-  float: rigtht;
-  margin: 15px;
+table tr:nth-child(2) td:nth-child(3),
+table tr:nth-child(3) td:nth-child(3),
+table tr:nth-child(2) td:nth-child(5),
+table tr:nth-child(3) td:nth-child(5),
+table tr:nth-child(2) td:nth-child(6),
+table tr:nth-child(3) td:nth-child(6){
+    background-color: blue;
 }
-.clear{
 
-  clear: both;
-}
+
+
+
+
