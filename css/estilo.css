@@ -4,8 +4,12 @@ border-collapse: collapse;
 text-align: center;
 }
 html,body{
-
     padding: 10px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 table tr:nth-child(odd){
     background-color:#ccc;
@@ -17,7 +21,7 @@ table tr:nth-child(2) td:nth-child(5),
 table tr:nth-child(3) td:nth-child(5),
 table tr:nth-child(2) td:nth-child(6),
 table tr:nth-child(3) td:nth-child(6){
-    background-color: blue;
+    background-color: rgb(173, 173, 187);
 }
 
 
