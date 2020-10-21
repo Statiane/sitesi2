@@ -12,7 +12,7 @@ html,body{
     align-items: center;
 }
 table tr:nth-child(odd){
-    background-color:#ccc;
+    background-color:rgb(226, 173, 0);
 }
 
 table tr:nth-child(2) td:nth-child(3),
@@ -21,9 +21,20 @@ table tr:nth-child(2) td:nth-child(5),
 table tr:nth-child(3) td:nth-child(5),
 table tr:nth-child(2) td:nth-child(6),
 table tr:nth-child(3) td:nth-child(6){
-    background-color: rgb(173, 173, 187);
+    background-color: rgb(236, 55, 70);
 }
 
+.corpo {
+    background-color: rgb(117, 119, 238);
+}
+.tabela{
+    background-color: rgb(229, 255, 0);
+}
+.legenda {
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+}
 
 
 
